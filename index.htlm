@@ -3,10 +3,26 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Djurigheter</title>
+  <title>Djurigheter – Äventyrsblogg</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Välkommen till Djurigheter</h1>
-  <p>Vi korsade Island till fots – och det här är vår blogg om äventyret.</p>
+  <header>
+    <h1>Djurigheter</h1>
+    <nav>
+      <a href="index.html">Start</a>
+      <a href="blog.html">Blogg</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Vi korsade Island till fots – här är våra berättelser</h2>
+    <p>Under sommaren 2025 gick vi från nordkusten till sydkusten på Island. I den här bloggen delar vi vår resa, lärdomar, utrustningstips och framtida äventyr.</p>
+    <p>Vi hoppas att det kan inspirera dig till att själv ge dig ut på en expedition!</p>
+  </main>
+
+  <footer>
+    <p>© 2025 Djurigheter</p>
+  </footer>
 </body>
 </html>
