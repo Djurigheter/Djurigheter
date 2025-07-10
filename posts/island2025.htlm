@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Island 2025 – Djurigheter</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <header>
+    <h1>Djurigheter</h1>
+    <nav>
+      <a href="../index.html">Start</a>
+      <a href="../blog.html">Blogg</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Island 2025 – Från norr till syd till fots</h2>
+    <p><em>Publicerat: 10 juli 2025</em></p>
+
+    <p>I juni 2025 gav vi oss ut på ett av våra största äventyr hittills – att korsa hela Island till fots, från norr till syd. Det blev en resa på över 400 kilometer, genom lavafält, snötäckta fjäll och glaciärfloder.</p>
+
+    <h3>Start i Akureyri</h3>
+    <p>Vi började i närheten av Akureyri och tog oss söderut genom ödemarken...</p>
+
+    <!-- Lägg till bilder, kartor, tips osv här -->
+
+  </main>
+
+  <footer>
+    <p>© 2025 Djurigheter</p>
+  </footer>
+</body>
+</html>
