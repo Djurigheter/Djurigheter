@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blogg – Djurigheter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Djurigheter</h1>
+    <nav>
+      <a href="index.html">Start</a>
+      <a href="blog.html">Blogg</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Blogg</h2>
+    <ul class="post-list">
+      <li><a href="posts/island2024.html">Island 2024 – Från norr till syd till fots</a></li>
+      <!-- Du kan lägga till fler inlägg här -->
+    </ul>
+  </main>
+
+  <footer>
+    <p>© 2025 Djurigheter</p>
+  </footer>
+</body>
+</html>
