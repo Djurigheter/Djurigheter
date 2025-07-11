@@ -5,8 +5,6 @@
   box-sizing: border-box;
 }
 
-}
-
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f9f9f9;
@@ -14,33 +12,34 @@ body {
   line-height: 1.6;
 }
 
+/* Layout Containers */
 .container {
   width: 90%;
   max-width: 1000px;
   margin: auto;
-  padding: 0px 0;
+  padding: 0;
 }
 
+/* Header */
 header {
   background-color: #FF7F50;
   color: #fff;
   padding: 20px 0;
+  text-align: center;
 }
 
 header h1 {
-  text-align: center;
   font-size: 2.5em;
+  margin-bottom: 10px;
 }
 
+/* Navigation */
 nav ul {
   display: flex;
   justify-content: center;
   list-style: none;
-  margin-top: 10px;
-}
-
-nav ul li {
-  margin: 0 15px;
+  gap: 30px;
+  padding: 0;
 }
 
 nav ul li a {
@@ -53,6 +52,7 @@ nav ul li a:hover {
   color: #fff;
 }
 
+/* Hero Image */
 .hero {
   position: relative;
   width: 100%;
@@ -60,10 +60,11 @@ nav ul li a:hover {
   overflow: hidden;
 }
 
-.hero img {
+.hero img,
+.main-image {
   width: 100%;
+  max-height: 500px;
   object-fit: cover;
-  max-height: 500px;  /* Matchar bloggsidan */
   border-radius: 10px;
   margin: 20px 0;
 }
@@ -78,12 +79,22 @@ nav ul li a:hover {
   border-radius: 10px;
 }
 
-.about, .latest-posts {
+/* Text block under bild */
+.overlay-text {
+  text-align: center;
+  margin-top: -30px;
+  font-size: 1.2em;
+  color: #555;
+}
+
+/* About & Posts Sections */
+.about,
+.latest-posts {
   background-color: #fff;
   margin: 30px auto;
   padding: 40px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
 
 h2 {
@@ -104,6 +115,7 @@ h2 {
   text-decoration: underline;
 }
 
+/* Footer */
 footer {
   background-color: #222;
   color: #aaa;
@@ -119,19 +131,4 @@ footer a {
 
 footer a:hover {
   color: #fff;
-}
-
-.main-image {
-  width: 100%;
-  max-height: 500px;
-  object-fit: cover;
-  border-radius: 10px;
-  margin: 20px 0;
-}
-
-.overlay-text {
-  text-align: center;
-  margin-top: -30px;
-  font-size: 1.2em;
-  color: #555;
 }
