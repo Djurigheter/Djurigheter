@@ -47,11 +47,11 @@ body {
   list-style: none;
   margin: 0;
   padding: 15px 0;
-  background-color: #FF7F50; /* samma som tidigare header */
+  background-color: #00797A; /* samma som tidigare header */
 }
 
 .custom-header nav ul li {
-  margin: 0 20px;
+  margin: 0 5px;
 }
 
 .custom-header nav ul li a {
