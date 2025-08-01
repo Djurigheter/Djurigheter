@@ -29,16 +29,16 @@ body {
 
 .header-image {
   width: 100%;
-  height: 300px; /* ändra höjd efter smak */
+  max-height: 200px; /* Mindre maxhöjd */
   overflow: hidden;
 }
 
 .header-image img {
   width: 100%;
-  height: 100%;
-  object-fit: cover; /* ser bra ut på olika skärmar */
+  height: auto;      /* Behåll proportioner */
   display: block;
 }
+
 
 /* Meny under bilden */
 .custom-header nav ul {
