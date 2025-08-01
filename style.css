@@ -20,18 +20,51 @@ body {
   padding: 0;
 }
 
-/* Header */
-header {
-  background-color: #6B8E23;
-  color: #fff;
-  padding: 20px 0;
+/* Ny header med bild och meny under */
+.custom-header {
+  width: 100%;
   text-align: center;
+  background-color: #fff; /* bakgrund bakom menyn */
 }
 
-header h1 {
-  font-size: 2.5em;
-  margin-bottom: 10px;
+.header-image {
+  width: 100%;
+  height: 300px; /* ändra höjd efter smak */
+  overflow: hidden;
 }
+
+.header-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* ser bra ut på olika skärmar */
+  display: block;
+}
+
+/* Meny under bilden */
+.custom-header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 15px 0;
+  background-color: #FF7F50; /* samma som tidigare header */
+}
+
+.custom-header nav ul li {
+  margin: 0 20px;
+}
+
+.custom-header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.custom-header nav ul li a:hover {
+  color: #000;
+}
+
 
 /* Navigation */
 nav ul {
