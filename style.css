@@ -165,3 +165,32 @@ footer a {
 footer a:hover {
   color: #fff;
 }
+
+/* Footer styling */
+footer {
+  background-color: #222;
+  color: #aaa;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+footer h3 {
+  color: #fff;
+  font-size: 1.6em;
+  margin-bottom: 20px;
+}
+
+footer p {
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+
+/* Instagram widget styling */
+.instagram-feed iframe {
+  border-radius: 10px;       /* Rundade hörn */
+  transition: transform 0.3s ease;
+}
+
+.instagram-feed iframe:hover {
+  transform: scale(1.02);    /* Liten zoom på hela widgeten */
+}
