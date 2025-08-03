@@ -194,3 +194,12 @@ footer p {
 .instagram-feed iframe:hover {
   transform: scale(1.02);    /* Liten zoom på hela widgeten */
 }
+
+.instagram-feed img {
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.instagram-feed img:hover {
+  transform: scale(1.05);    /* Zoomar lite när du hovrar på bilden */
+}
