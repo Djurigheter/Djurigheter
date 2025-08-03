@@ -203,3 +203,16 @@ footer p {
 .instagram-feed img:hover {
   transform: scale(1.05);    /* Zoomar lite när du hovrar på bilden */
 }
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto; /* Tvingar footern längst ner */
+}
