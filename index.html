@@ -25,6 +25,40 @@
  
    <img src="../images/framsida.jpg" alt="" style="width: 100%; max-height: 500px; object-fit: cover; border-radius: 10px; margin: 10px 0;" /> 
       
+<section class="photo-gallery container">
+  <h2>Photo Gallery</h2>
+  <div class="gallery" id="gallery"></div>
+</section>
+
+<!-- Lightbox JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+
+<script>
+  // Lista med dina bilder
+  const images = [
+    { src: 'images/bild1.jpg', title: 'text1' },
+    { src: 'images/bild2.jpg', title: 'text2' },
+    { src: 'images/bild3.jpg', title: 'text3' }
+  ];
+
+  const galleryContainer = document.getElementById('gallery');
+
+  images.forEach(img => {
+    const link = document.createElement('a');
+    link.href = img.src;
+    link.setAttribute('data-lightbox', 'island');
+    link.setAttribute('data-title', img.title);
+
+    const image = document.createElement('img');
+    image.src = img.src;
+    image.alt = img.title;
+
+    link.appendChild(image);
+    galleryContainer.appendChild(link);
+  });
+</script>
+
+  
   <section class="latest-posts">
     <div class="container">
       <h2>Latest Expedition</h2>
