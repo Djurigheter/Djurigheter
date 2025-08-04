@@ -150,42 +150,6 @@ h2 {
   text-decoration: underline;
 }
 
-/* Footer */
-footer {
-  background-color: #222;
-  color: #aaa;
-  text-align: center;
-  padding: 20px 0;
-  font-size: 0.9em;
-}
-
-footer a {
-  color: #aaa;
-  text-decoration: underline;
-}
-
-footer a:hover {
-  color: #fff;
-}
-
-/* Footer styling */
-footer {
-  background-color: #222;
-  color: #aaa;
-  text-align: center;
-  padding: 40px 20px;
-}
-
-footer h3 {
-  color: #fff;
-  font-size: 1.6em;
-  margin-bottom: 20px;
-}
-
-footer p {
-  margin-top: 20px;
-  font-size: 0.9em;
-}
 
 /* Instagram widget styling */
 .instagram-feed iframe {
@@ -215,11 +179,44 @@ body {
   flex-direction: column;
 }
 
+
+/* ===================== */
+/* FOOTER STYLING        */
+/* ===================== */
+
 footer {
-  margin-top: auto; /* Tvingar footern längst ner */
+  background-color: #222;
+  color: #aaa;
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 0.9em;
 }
 
+/* Rubriken ovanför Instagram */
+footer h3 {
+  color: #fff;
+  font-size: 1.6em;
+  margin-bottom: 20px;
+}
 
+/* Allmän text i footern */
+footer p {
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+
+/* Länkar i footern */
+footer a {
+  color: #aaa;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+/* Särskild styling för kontaktinfo */
 .footer-contact {
   margin-top: 30px;
   text-align: center;
@@ -229,19 +226,22 @@ footer {
   margin: 8px 0;
 }
 
+/* Gör mejltexten större och tydligare */
 .footer-contact .collaboration-text {
-  font-size: 1.3em;         /* Gör texten större */
-  font-weight: 500;         /* Lite fetare */
+  font-size: 1.3em;
+  font-weight: 500;
   margin-top: 15px;
 }
 
+/* Snyggare mejllänk */
 .footer-contact a {
-  color: #00c0c0;           /* En accentfärg som syns mot bakgrunden */
+  color: #00c0c0;
   text-decoration: none;
   font-weight: 600;
 }
 
 .footer-contact a:hover {
-  color: #00ffff;           /* Ljusare vid hover */
+  color: #00ffff;
   text-decoration: underline;
 }
+
