@@ -245,51 +245,5 @@ footer a:hover {
   text-decoration: underline;
 }
 
-/* Quick Highlights Section */
-.quick-highlights {
-  display: flex;
-  justify-content: space-between;
-  gap: 30px;
-  margin: 60px auto;
-  text-align: center;
-}
 
-.highlight {
-  flex: 1;
-  background: #fff;
-  padding: 25px 20px;
-  border-radius: 12px;
-  box-shadow: 0 0 12px rgba(0,0,0,0.05);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.highlight:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-}
-
-.highlight img {
-  width: 60px;
-  height: 60px;
-  margin-bottom: 15px;
-}
-
-.highlight h4 {
-  font-size: 1.3em;
-  color: #00797A;
-  margin-bottom: 10px;
-}
-
-.highlight p {
-  color: #555;
-  font-size: 0.95em;
-  line-height: 1.5;
-}
-
-/* Mobilanpassning */
-@media (max-width: 768px) {
-  .quick-highlights {
-    flex-direction: column;
-  }
-}
 
